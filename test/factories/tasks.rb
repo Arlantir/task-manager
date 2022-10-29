@@ -5,6 +5,6 @@ FactoryBot.define do
     author factory: :manager
     assignee factory: :developer
     state
-    expired_at { "2022-10-28" }
+    expired_at { '2022-10-28' }
   end
 end
